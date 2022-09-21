@@ -146,7 +146,7 @@ class _DesignState extends State<Design> {
            ),
            const SizedBox(height: 30),
            Container(
-               padding: EdgeInsets.only(right: 350),
+               padding: const EdgeInsets.only(right: 350),
                child: const Text('詳細', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20,))
            ),
            const SizedBox(height: 5),
@@ -158,20 +158,15 @@ class _DesignState extends State<Design> {
                color: Colors.black12,
                borderRadius: BorderRadius.circular(10),
              ),
-             child: Text('イタリア共和国北東部に位置する都市で、その周辺地域を含む人口約26万人の基礎自治体（コムーネ）。ヴェネト州の州都、ヴェネツィア県の県都でもある。ヴの表記によりベネチアと表記されることもある。中世にはヴェネツィア共和国の首都として栄えた都市で、「アドリア海の女王」「水の都」などの別名を持つ。英語では「Venice」と呼ばれ、これに由来して日本語でもヴェニス、ベニスと呼ばれることもある。'
+             child: const Text('イタリア共和国北東部に位置する都市で、その周辺地域を含む人口約26万人の基礎自治体（コムーネ）。ヴェネト州の州都、ヴェネツィア県の県都でもある。ヴの表記によりベネチアと表記されることもある。中世にはヴェネツィア共和国の首都として栄えた都市で、「アドリア海の女王」「水の都」などの別名を持つ。英語では「Venice」と呼ばれ、これに由来して日本語でもヴェニス、ベニスと呼ばれることもある。'
                    ,style: TextStyle(fontSize: 15.5),)
            ),
            const SizedBox(height: 30),
            Container(
-             child: FloatingActionButton.extended(onPressed: (){}, label: Text('ホテルを予約する')),
+             child: FloatingActionButton.extended(onPressed: (){}, label: const Text('ホテルを予約する')),
            )
-
          ],
-
-
        ),
-
-
     );
   }
 }
